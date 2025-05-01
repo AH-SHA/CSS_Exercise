@@ -1,4 +1,66 @@
+/*Exercise 1 - completed within <h1> in the index.html file*/
+
+/*Exercise 2*/
 .nav-link {
     color: orange;
     text-decoration: none;
+}
+
+/*Exercise 3*/
+main {
+    max-width: 600px;
+    width: 100%;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /*margin: 24px auto;  This is an alternate, shorthand way using the order, top, left, bottom, right or Top and clockwise*/
+}
+
+/*Exercise 4*/
+section{
+    margin: 24pm 0;
+    padding: 16px; /* this is shorthand if all the sides have the same vlaue for padding*/
+    /* this is the longhand way to write each padding
+    padding-top: 16px;
+    padding-botton: 16px;
+    padding-left: 16px;
+    padding-right: 16px;  */
+}
+
+/*Exercise 5*/
+
+#title {
+    font-size: 40px;
+    font-weight:  800;  /* it has a scale of 100 -900, 900 is the boldest font weight */
+}
+
+/*Exercise 6*/
+/* the 'd' below stands for 'display'*/
+.d-inline{
+    display: inline;
+}
+
+/*Exercise 7*/
+/* this uses the child selector b/c the ul is a 'child' of the nav tag*/
+
+nav > ul {
+    list-style: none;
+}
+
+
+/*Exercise 8*/
+
+body{
+    margin: 0;
+    background-color: #222;
+    color: #eee;
+}
+
+
+/*Exercise 9*/
+#avatar {
+    width: 100px; /*height will auto change to what it needs to be not to distort the image*/
+    margin:32px auto;
 }
