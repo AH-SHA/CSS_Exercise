@@ -20,7 +20,7 @@ main {
 
 /*Exercise 4*/
 section{
-    margin: 24pm 0;
+    margin: 24px 0;
     padding: 16px; /* this is shorthand if all the sides have the same vlaue for padding*/
     /* this is the longhand way to write each padding
     padding-top: 16px;
